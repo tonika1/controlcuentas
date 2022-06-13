@@ -1,0 +1,6 @@
+---
+- name: check username
+  hosts: all
+  tasks:
+    - name: quien whoami
+      ansible.windows.win_whoami:
